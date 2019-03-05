@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action = "DepositServlet">
+Enter From Account Number:<br>
+<input type = "text" name = "fAccNo" placeholder = "fromAccNo">
+<br><br>
+Enter To Account Number:<br>
+<input type = "text" name = "tAccNo" placeholder = "toAccNo">
+<br><br>
+Enter Amount:<br>
+<input type = "text" name = "amount" placeholder = "amount">
+<br><br>
+Date of Transaction:<br>
+<input type = "text" name = "date" placeholder = "TransactionDate">
+<br><br>
+<!--  <input type="date" name = "date" id="myDate"  />
+
+<script type="text/javascript">
+function SetDate()
+{
+var date = new Date();
+
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var year = date.getFullYear();
+
+if (month < 10) month = "0" + month;
+if (day < 10) day = "0" + day;
+
+var today = year + "-" + month + "-" + day;
+
+
+document.getElementById('myDate').value = today;
+}
+</script>
+
+<body onload="SetDate();"><br><br>-->
+Transaction type:<br>
+<input type = "text" name = "tType" value = "deposit">
+<br><br>
+
+<input type = "submit" value = "Submit">
+</form>
+</body>
+</html>

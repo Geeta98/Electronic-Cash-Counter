@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>ELECTRONIC CASH COUNTER</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        	<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="shortcut icon" href="assets/ico/favicon.png">
+        	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        	<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo">ELECTRONIC CASH COUNTER</a></h1>
+								<hr />
+								<p>Easy and Handy...</p>
+							</header>
+							
+						</div>
+
+					<!-- Nav -->
+						  <nav id="nav" >
+							<ul>								
+								<li><a href="#ProLogin">Login as Employee</a>
+																
+													
+								<li><a href="#AdLogin">Login as Admin</a>
+								
+						</nav>
+						
+
+				</div>			
+	<!-- Login-->
+<div class="top-content">
+        	
+            <div class="inner-bg">
+                <div class="container">
+                	
+<section id="ProLogin">
+<div class="row">
+                        <div class="col-sm-5">
+                        	
+                        	<div class="form-box">
+	                        	<div class="form-top">
+	                        		<div class="form-top-left">
+	                        			<h3>Login as Employee</h3>
+	                            		<p>Enter username and password to log on:</p>
+	                        		</div>
+	                        		<div class="form-top-right">
+	                        			<i class="fa fa-key"></i>
+	                        		</div>
+	                            </div>
+	                            <div class="form-bottom">
+				                    <form role="form" action="LoginServlet" method="post" class="login-form">
+				                    	<div class="form-group">
+				                    		<label class="sr-only" for="form-username">Username</label>
+				                        	<input type="text" name="ename" placeholder="Username..." class="form-username form-control" id="form-username" required>
+				                        </div>
+				                        <div class="form-group">
+				                
+				                	<label class="sr-only" for="form-password">Password</label>
+				                        	<input type="password" name="epwd" placeholder="Password..." class="form-password form-control" id="form-password" required>
+				                        </div>
+				                        <input type = "hidden" name="action" value="eLogin">
+				                        <button type="submit" class="btn">Login!</button>
+				                    </form>
+			                    </div>
+		                    </div>
+		                
+		                	<div class="social-login">
+	                        	<h3>Login and get started!</h3><br>
+	                        	
+	                        </div>
+	                        
+                        </div>
+                        
+                        <div class="col-sm-1 middle-border"></div>
+                        <div class="col-sm-1"></div>
+                        	
+                        <div class="col-sm-5">
+                        	
+                        
+</section>
+<section id="AdLogin">
+<div class="row">
+                        <div class="col-sm-5">
+                        	
+                        	<div class="form-box">
+	                        	<div class="form-top">
+	                        		<div class="form-top-left">
+	                        			<h3>Login as Admin</h3>
+	                            		<p>Enter username and password to log on:</p>
+	                        		</div>
+	                        		<div class="form-top-right">
+	                        			<i class="fa fa-key"></i>
+	                        		</div>
+	                            </div>
+	                            <div class="form-bottom">
+				                    <form role="form" action="LoginServlet" method="post" class="login-form">
+				                    	<div class="form-group">
+				                    		<label class="sr-only" for="form-username">Username</label>
+				                        	<input type="text" name="aname" placeholder="Username..." class="form-username form-control" id="form-username" required>
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-password">Password</label>
+				                        	<input type="password" name="apwd" placeholder="Password..." class="form-password form-control" id="form-password" required="">
+				                        </div>
+				                        <input type = "hidden" name="action" value="aLogin">
+				                        <button type="submit" class="btn">Login!</button>
+				                    </form>
+			                    </div>
+		                    </div>
+		                
+		                	<div class="social-login">
+	                        	<h3>Login and get started!</h3><br>
+	                        	
+	                        </div>
+	                        
+                        </div>
+                        
+                        <div class="col-sm-1 middle-border"></div>
+                        <div class="col-sm-1"></div>
+                        	
+                        <div class="col-sm-5">
+                        	
+                        
+</section>
+                        	
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
